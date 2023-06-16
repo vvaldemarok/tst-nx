@@ -1,0 +1,18 @@
+{
+	"folders": [
+    {
+      "path": "..",
+      "name": "Root"
+    },
+    {
+      "path": "../packages/first-app"
+    },
+    {
+      "path": "../packages/second-app"
+    },
+    {
+      "path": "../packages/shared"
+    }
+  ],
+	"settings": {}
+}

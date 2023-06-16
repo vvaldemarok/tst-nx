@@ -1,37 +1,38 @@
-const exclusionList = require("metro-config/src/defaults/exclusionList");
-const { getMetroTools, getMetroAndroidAssetsResolutionFix } = require("react-native-monorepo-tools");
+const exclusionList = require('metro-config/src/defaults/exclusionList');
+const {
+  getMetroTools,
+  getMetroAndroidAssetsResolutionFix,
+} = require('react-native-monorepo-tools');
 
 const monorepoMetroTools = getMetroTools();
 
 const androidAssetsResolutionFix = getMetroAndroidAssetsResolutionFix();
 
-
-const path = require("path");
-
 module.exports = {
-	watchFolders: monorepoMetroTools.watchFolders,
+  watchFolders: monorepoMetroTools.watchFolders,
 
-	transformer: {
-		// Apply the Android assets resolution fix to the public path...
-		publicPath: androidAssetsResolutionFix.publicPath,
+  transformer: {
+    // Apply the Android assets resolution fix to the public path...
+    publicPath: androidAssetsResolutionFix.publicPath,
 
-		getTransformOptions: async () => ({
-			transform: {
-				experimentalImportSupport: false,
-				inlineRequires: false,
-			},
-	}),},
+    getTransformOptions: async () => ({
+      transform: {
+        experimentalImportSupport: false,
+        inlineRequires: false,
+      },
+    }),
+  },
 
-	server: {
-		// ...and to the server middleware.
-		enhanceMiddleware: (middleware) => {
-			return androidAssetsResolutionFix.applyMiddleware(middleware);
-		},
-	},
+  server: {
+    // ...and to the server middleware.
+    enhanceMiddleware: middleware => {
+      return androidAssetsResolutionFix.applyMiddleware(middleware);
+    },
+  },
 
-	resolver: {
-		// Ensure we resolve nohoist libraries from this directory.
-		blockList: exclusionList(monorepoMetroTools.blockList),
-		extraNodeModules: monorepoMetroTools.extraNodeModules,
-	},
+  resolver: {
+    // Ensure we resolve nohoist libraries from this directory.
+    blockList: exclusionList(monorepoMetroTools.blockList),
+    extraNodeModules: monorepoMetroTools.extraNodeModules,
+  },
 };

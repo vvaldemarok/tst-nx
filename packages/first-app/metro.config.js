@@ -1,24 +1,37 @@
-/**
- * Metro configuration for React Native
- * https://github.com/facebook/react-native
- *
- * @format
- */
+const exclusionList = require("metro-config/src/defaults/exclusionList");
+const { getMetroTools, getMetroAndroidAssetsResolutionFix } = require("react-native-monorepo-tools");
+
+const monorepoMetroTools = getMetroTools();
+
+const androidAssetsResolutionFix = getMetroAndroidAssetsResolutionFix();
+
 
 const path = require("path");
 
 module.exports = {
-	watchFolders: [
-		path.resolve(__dirname, '../../node_modules'),
-		path.resolve(__dirname, '../../node_modules/@my-app/shared'),
-	],
+	watchFolders: monorepoMetroTools.watchFolders,
 
-  transformer: {
-    getTransformOptions: async () => ({
-      transform: {
-        experimentalImportSupport: false,
-        inlineRequires: true,
-      },
-    }),
-  },
+	transformer: {
+		// Apply the Android assets resolution fix to the public path...
+		publicPath: androidAssetsResolutionFix.publicPath,
+
+		getTransformOptions: async () => ({
+			transform: {
+				experimentalImportSupport: false,
+				inlineRequires: false,
+			},
+	}),},
+
+	server: {
+		// ...and to the server middleware.
+		enhanceMiddleware: (middleware) => {
+			return androidAssetsResolutionFix.applyMiddleware(middleware);
+		},
+	},
+
+	resolver: {
+		// Ensure we resolve nohoist libraries from this directory.
+		blockList: exclusionList(monorepoMetroTools.blockList),
+		extraNodeModules: monorepoMetroTools.extraNodeModules,
+	},
 };

@@ -7,10 +7,24 @@
     "ios": "react-native run-ios",
     "lint": "eslint .",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+	"packager/start": "react-native start",	
+	"packager/start-adb": "adb reverse tcp:8081 tcp:8081 && yarn packager/start",
+	"packager/start-fresh": "yarn packager/clear-watchman && yarn packager/start --reset-cache",
+	"packager/clear-watchman": "watchman watch-del .; watchman watch-project .",
+
+	"android-development/run": "yarn android-development/apk && yarn android-development/open",
+	"android-development/apk": "yarn __android-development/prepare && yarn __android-development/build && yarn android-development/install",
+	"android-development/apk-fresh": "yarn packages/refresh && yarn android-development/apk",
+	"__android-development/prepare": "yarn android/clean",
+	"packages/refresh": "rm -rf node_modules && cd ../../ && rm -rf node_modules && cd packages/first-app && yarn",
+	"android/clean": "cd android && ./gradlew clean",
+	"__android-development/build": "cd android && ./gradlew assembleDebug",
+	"android-development/install": "yarn android/adb-broadcast install -r android/app/build/outputs/apk/debug/app-debug.apk",
+	"android/adb-broadcast": "adb devices | tail -n +2 | cut -sf 1 | xargs -IX adb -s X"
   },
   "dependencies": {
-	"@my-app/shared": "^1.0.0",
+    "@my-app/shared": "^1.0.0",
     "react": "18.2.0",
     "react-native": "0.71.11"
   },
@@ -28,6 +42,7 @@
     "jest": "^29.2.1",
     "metro-react-native-babel-preset": "0.73.10",
     "prettier": "^2.4.1",
+    "react-native-monorepo-tools": "1.2.1",
     "react-test-renderer": "18.2.0",
     "typescript": "4.8.4"
   },

@@ -24,7 +24,7 @@ export const TestUi: React.FC = () => {
 
 					color: 'coral'
 				}}>
-					This is testing UI
+					3-th change, and version 1.0.1
 				</Text>
 			</View>
 		</>

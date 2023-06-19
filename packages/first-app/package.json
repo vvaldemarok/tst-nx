@@ -1,5 +1,5 @@
 {
-  "name": "firstapp",
+  "name": "first-app",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -24,7 +24,7 @@
 	"android/adb-broadcast": "adb devices | tail -n +2 | cut -sf 1 | xargs -IX adb -s X"
   },
   "dependencies": {
-    "@my-app/shared": "^1.0.0",
+    "@my-app/shared": "1.0.0",
     "react": "18.2.0",
     "react-native": "0.71.11"
   },

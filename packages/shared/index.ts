@@ -1,1 +1,1 @@
-export {TestUi } from './src'
+export { TestUi } from './src'

@@ -19,7 +19,7 @@ export const TestUi: React.FC = () => {
 					fontWeight: 'bold',
 					color: 'coral'
 				}}>
-					3-th change, and version 1.0.2
+					3-th change, and version 1.0.1
 				</Text>
 			</View>
 		</>

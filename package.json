@@ -6,13 +6,15 @@
     "packages/*"
   ],
   "scripts": {
-	"first/build": "nx run first-app:android",
-	"second/build": "nx run secondapp:android",
- 	"packager/start-fresh": "nx run first-app:packager/start-fresh",
-	"shared/build": "nx run @my-app/shared:build",
-	"all/refresh": "rm -rf node_modules && yarn && nx run first-app:packages/refresh"
+    "first/build": "nx run first-app:android",
+    "second/build": "nx run secondapp:android",
+    "packager/start-fresh": "nx run first-app:packager/start-fresh",
+    "shared/build": "nx run @my-app/shared:build",
+    "refresh/all": "rm -rf node_modules && yarn && nx run first-app:packages/refresh",
+	"build/first-app": "lerna run android --scope=first-app"
   },
   "devDependencies": {
+    "lerna": "7.0.2",
     "nx": "16.3.2"
   }
 }

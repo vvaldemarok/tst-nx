@@ -17,7 +17,7 @@
 	"android-development/apk": "yarn __android-development/prepare && yarn __android-development/build && yarn android-development/install",
 	"android-development/apk-fresh": "yarn packages/refresh && yarn android-development/apk",
 	"__android-development/prepare": "yarn android/clean",
-	"packages/refresh": "rm -rf node_modules && cd ../../ && rm -rf node_modules && cd packages/first-app && yarn",
+	"packages/refresh": "rm -rf node_modules && yarn",
 	"android/clean": "cd android && ./gradlew clean",
 	"__android-development/build": "cd android && ./gradlew assembleDebug",
 	"android-development/install": "yarn android/adb-broadcast install -r android/app/build/outputs/apk/debug/app-debug.apk",

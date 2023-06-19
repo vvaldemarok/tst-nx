@@ -6,25 +6,20 @@ export const TestUi: React.FC = () => {
 		<>
 			<View style={{
 				flex: 1,
-
 				backgroundColor: 'linen',
-
 				borderRadius: 20,
 				borderWidth: 14,
-
 				justifyContent: 'center',
 				alignItems: 'center'
 			}}>
 				<Text style={{
 					alignSelf: 'center',
-					
 					lineHeight: 32,
 					fontSize: 28,
 					fontWeight: 'bold',
-
 					color: 'coral'
 				}}>
-					3-th change, and version 1.0.1
+					3-th change, and version 1.0.2
 				</Text>
 			</View>
 		</>

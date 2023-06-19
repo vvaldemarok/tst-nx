@@ -5,6 +5,10 @@
   "workspaces": [
     "packages/*"
   ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "first/build": "nx run first-app:android",
     "second/build": "nx run secondapp:android",

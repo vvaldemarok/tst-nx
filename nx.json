@@ -12,7 +12,10 @@
       "dependsOn": [
         "^packager/start"
       ]
-    }
+    },
+	"android-development/run": {
+		"dependsOn": ["^android-development/run"]
+	}
   },
   "affected": {
     "defaultBase": "main"

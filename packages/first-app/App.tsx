@@ -78,7 +78,7 @@ function App(): JSX.Element {
           borderRadius: 15,
           position: 'absolute',
           backgroundColor: 'tomato',
-          right: 40,
+          right: 100,
           top: 100,
         }}
       />

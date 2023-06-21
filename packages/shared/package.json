@@ -1,13 +1,13 @@
 {
 	"name": "@my-app/shared",
-	"version": "1.0.1",
+	"version": "0.1.0",
 	"license": "MIT",
 	"description": "React Native integration for React Navigation",
-    "keywords": [
+	"keywords": [
 		"react-native",
 		"ios",
 		"android"
-    ],
+	],
 	"main": "dist/index.js",
 	"scripts": {
 		"build": "rimraf dist && tsc",

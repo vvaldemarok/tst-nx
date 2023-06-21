@@ -71,6 +71,17 @@ function App(): JSX.Element {
         barStyle={isDarkMode ? 'light-content' : 'dark-content'}
         backgroundColor={backgroundStyle.backgroundColor}
       />
+      <View
+        style={{
+          width: 30,
+          height: 30,
+          borderRadius: 15,
+          position: 'absolute',
+          backgroundColor: 'tomato',
+          right: 40,
+          top: 100,
+        }}
+      />
       <TestUi />
       {/* <ScrollView
         contentInsetAdjustmentBehavior="automatic"

@@ -79,7 +79,7 @@ function App(): JSX.Element {
           height: 50,
           borderRadius: 25,
           position: 'absolute',
-          backgroundColor: 'coral',
+          backgroundColor: 'red',
           right: 100,
           top: 100,
           borderWidth: 2,

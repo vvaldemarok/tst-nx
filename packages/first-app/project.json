@@ -5,6 +5,7 @@
       "executor": "@jscutlery/semver:version",
       "options": {
         "preset": "conventional",
+		"push": true,
     "skipRootChangelog": false,
     "generateNotes": true,
     "tag": "${tag}",

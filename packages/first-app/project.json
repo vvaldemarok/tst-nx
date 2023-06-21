@@ -22,7 +22,8 @@
         "generateNotes": true,
         "changelogHeader": "${tag}",
         "tag": "${tag}",
-		"notes": "${notes}"
+		"notes": "${notes}",
+		"title": "Whats changed?"
 	}
     }
   }

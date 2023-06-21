@@ -21,7 +21,7 @@
         "generateNotes": true,
         "changelogHeader": "${tag}",
         "tag": "${tag}",
-		"notesFile": "./CHANGELOG.md",
+		"notes": "${notes}",
 		"commitMessageFormat": "release(${projectName}): 🎸 cut release to ${version}"
       }
     }

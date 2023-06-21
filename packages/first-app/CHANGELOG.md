@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.5.0](https://github.com/vvaldemarok/tst-nx/compare/first-app-0.4.0...first-app-0.5.0) (2023-06-21)
+
+
+### Features
+
+* test tset ([35a7a6e](https://github.com/vvaldemarok/tst-nx/commit/35a7a6ea48124005b69a740d93d4bb741006cf5d))
+
 ## [0.4.0](https://github.com/vvaldemarok/tst-nx/compare/first-app-0.3.0...first-app-0.4.0) (2023-06-21)
 
 

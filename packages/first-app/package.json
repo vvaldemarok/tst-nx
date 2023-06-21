@@ -1,6 +1,6 @@
 {
   "name": "first-app",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
@@ -23,7 +23,7 @@
     "android/adb-broadcast": "adb devices | tail -n +2 | cut -sf 1 | xargs -IX adb -s X"
   },
   "dependencies": {
-    "@my-app/shared": "1.0.1",
+    "@my-app/shared": "0.1.0",
     "react": "18.2.0",
     "react-native": "0.71.11"
   },

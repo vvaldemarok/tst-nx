@@ -14,10 +14,13 @@
     "second/build": "nx run secondapp:android",
     "packager/start-fresh": "nx run first-app:packager/start-fresh",
     "shared/build": "nx run @my-app/shared:build",
-    "refresh/all": "rm -rf node_modules && yarn && nx run first-app:packages/refresh",
-	"build/first-app": "lerna run android --scope=first-app"
+    "refresh/all": "rm -rf node_modules && yarn && nx run first-app:packages/refresh"
   },
   "devDependencies": {
+    "@commitlint/cli": "17.6.5",
+    "commitlint": "17.6.5",
+    "husky": "8.0.3",
+    "lint-staged": "13.2.2",
     "nx": "16.3.2"
   }
 }

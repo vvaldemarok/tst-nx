@@ -2,6 +2,14 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.6.0](https://github.com/vvaldemarok/tst-nx/compare/first-app-0.5.0...first-app-0.6.0) (2023-06-21)
+
+
+### Features
+
+* added prjects.json ([4096de4](https://github.com/vvaldemarok/tst-nx/commit/4096de4ab16b9518b4b4e6fab5d5cd364d3d84af))
+* **descripton:** removed some things ([fff4924](https://github.com/vvaldemarok/tst-nx/commit/fff492420577214f5a7b8dc2853a85677d53d72b))
+
 ## [0.5.0](https://github.com/vvaldemarok/tst-nx/compare/first-app-0.4.0...first-app-0.5.0) (2023-06-21)
 
 

@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.9.0](https://github.com/vvaldemarok/tst-nx/compare/first-app-0.8.0...first-app-0.9.0) (2023-06-21)
+
+
+### Features
+
+* fs fdaslkf ([4fe259f](https://github.com/vvaldemarok/tst-nx/commit/4fe259fc73a91caea1bad3dafdeb51832253eb49))
+
 ## [0.8.0](https://github.com/vvaldemarok/tst-nx/compare/first-app-0.7.0...first-app-0.8.0) (2023-06-21)
 
 

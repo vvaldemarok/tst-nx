@@ -2,6 +2,18 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [0.8.0](https://github.com/vvaldemarok/tst-nx/compare/first-app-0.7.0...first-app-0.8.0) (2023-06-21)
+
+
+### Features
+
+* **coral:** test ([59f5e7b](https://github.com/vvaldemarok/tst-nx/commit/59f5e7baf6249367d82a2c7ebcaf2378e939a0b5))
+* **testicular:** testices ([9593f73](https://github.com/vvaldemarok/tst-nx/commit/9593f73dd7502b75d3c4de33e7f49a2a5585f7ea))
+* **test:** some header ([d8622b3](https://github.com/vvaldemarok/tst-nx/commit/d8622b3b193c17cd49ed022c802993e165547446))
+* **test:** tested test ([5b9fc02](https://github.com/vvaldemarok/tst-nx/commit/5b9fc0255fb245b771e0bfd0ca20f239feb6e24c))
+* **test:** tested test ([c827061](https://github.com/vvaldemarok/tst-nx/commit/c82706178a5c166c6d7792905f8be9d574774be2))
+* **tsts:** testss tsts ([0a0be7a](https://github.com/vvaldemarok/tst-nx/commit/0a0be7a47bbb2e400712641bc62ba8bf7a1445b5))
+
 ## [0.7.0](https://github.com/vvaldemarok/tst-nx/compare/first-app-0.6.0...first-app-0.7.0) (2023-06-21)
 
 

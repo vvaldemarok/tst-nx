@@ -19,7 +19,8 @@
         "generateNotes": true,
         "changelogHeader": "${tag}",
         "tag": "${tag}",
-		"notesFile": "./CHANGELOG.md"
+		"notesFile": "./CHANGELOG.md",
+		"commitMessageFormat": "release(${projectName}): 🎸 cut release to ${version}"
       }
     }
   }

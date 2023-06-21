@@ -18,11 +18,13 @@
   },
   "devDependencies": {
     "@commitlint/cli": "17.6.5",
+    "@commitlint/config-conventional": "^17.0.0",
     "@jscutlery/semver": "3.0.0",
     "@nx/devkit": "16.3.2",
     "commitlint": "17.6.5",
     "husky": "8.0.3",
     "lint-staged": "13.2.2",
     "nx": "16.3.2"
-  }
+  },
+  "dependencies": {}
 }

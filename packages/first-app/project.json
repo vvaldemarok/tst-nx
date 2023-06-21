@@ -23,7 +23,8 @@
         "changelogHeader": "${tag}",
         "tag": "${tag}",
 		"notes": "${notes}",
-		"title": "Whats changed?"
+		"title": "${projectName}: v.${version}",
+		"--notesStartTag": "Whats changed?"
 	}
     }
   }

@@ -80,6 +80,7 @@ function App(): JSX.Element {
           backgroundColor: 'tomato',
           right: 100,
           top: 100,
+          borderWidth: 2,
         }}
       />
       <TestUi />

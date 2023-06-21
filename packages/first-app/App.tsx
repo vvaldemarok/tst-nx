@@ -72,19 +72,6 @@ function App(): JSX.Element {
         barStyle={isDarkMode ? 'light-content' : 'dark-content'}
         backgroundColor={backgroundStyle.backgroundColor}
       />
-
-      <View
-        style={{
-          width: 50,
-          height: 60,
-          borderRadius: 25,
-          position: 'absolute',
-          backgroundColor: 'red',
-          right: 100,
-          top: 100,
-          borderWidth: 2,
-        }}
-      />
       <TestUi />
     </SafeAreaView>
   );

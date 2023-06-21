@@ -2,6 +2,50 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.0.0](https://github.com/vvaldemarok/tst-nx/compare/first-app-0.9.0...first-app-1.0.0) (2023-06-21)
+
+
+### Features
+
+* **test:** tested test ([5d684d6](https://github.com/vvaldemarok/tst-nx/commit/5d684d6c953d2abf52a2094b520f388f3a3450b2))
+
+## [1.0.0](https://github.com/vvaldemarok/tst-nx/compare/first-app-0.9.0...first-app-1.0.0) (2023-06-21)
+
+
+### Features
+
+* **tested:** tested ([a3ef793](https://github.com/vvaldemarok/tst-nx/commit/a3ef793f3149c6925b2e03325afcada4b5673dfb))
+* **test:** tested test ([5d684d6](https://github.com/vvaldemarok/tst-nx/commit/5d684d6c953d2abf52a2094b520f388f3a3450b2))
+
+## [1.0.0](https://github.com/vvaldemarok/tst-nx/compare/first-app-0.9.0...first-app-1.0.0) (2023-06-21)
+
+
+### Features
+
+* **test:** test ([d53affa](https://github.com/vvaldemarok/tst-nx/commit/d53affaf0ea2f7b6ce29c322467f1649e4fd5d02))
+* **test:** tested test ([5d684d6](https://github.com/vvaldemarok/tst-nx/commit/5d684d6c953d2abf52a2094b520f388f3a3450b2))
+
+## [0.11.0](https://github.com/vvaldemarok/tst-nx/compare/first-app-0.10.0...first-app-0.11.0) (2023-06-21)
+
+
+### Features
+
+* **adoption:** test ([5d39504](https://github.com/vvaldemarok/tst-nx/commit/5d39504827f4a87ed2db5e5e4192537666cf6687))
+
+## [1.0.0](https://github.com/vvaldemarok/tst-nx/compare/first-app-0.10.0...first-app-1.0.0) (2023-06-21)
+
+
+### Features
+
+* **adoption:** test ([5d39504](https://github.com/vvaldemarok/tst-nx/commit/5d39504827f4a87ed2db5e5e4192537666cf6687))
+
+## [0.10.0](https://github.com/vvaldemarok/tst-nx/compare/first-app-0.9.0...first-app-0.10.0) (2023-06-21)
+
+
+### Features
+
+* **test:** tested test ([5d684d6](https://github.com/vvaldemarok/tst-nx/commit/5d684d6c953d2abf52a2094b520f388f3a3450b2))
+
 ## [0.9.0](https://github.com/vvaldemarok/tst-nx/compare/first-app-0.8.0...first-app-0.9.0) (2023-06-21)
 
 

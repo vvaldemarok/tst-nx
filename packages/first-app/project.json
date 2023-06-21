@@ -9,6 +9,7 @@
     "skipRootChangelog": false,
     "generateNotes": true,
     "tag": "${tag}",
+	"baseBranch": "HEAD:development",
     "skipCommitTypes": ["ci", "docs", "style", "refactor"],
     "postTargets": ["first-app:github"]
 }

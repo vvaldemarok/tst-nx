@@ -76,7 +76,7 @@ function App(): JSX.Element {
       <View
         style={{
           width: 50,
-          height: 50,
+          height: 60,
           borderRadius: 25,
           position: 'absolute',
           backgroundColor: 'red',

@@ -18,7 +18,8 @@
 		"preset": "conventional",
         "generateNotes": true,
         "changelogHeader": "${tag}",
-        "tag": "${tag}"
+        "tag": "${tag}",
+		"notesFile": "./CHANGELOG.md"
       }
     }
   }

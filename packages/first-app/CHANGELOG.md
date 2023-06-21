@@ -14,6 +14,13 @@ This file was generated using [@jscutlery/semver](https://github.com/jscutlery/s
 
 ### Features
 
+* **test:** tested test ([5d684d6](https://github.com/vvaldemarok/tst-nx/commit/5d684d6c953d2abf52a2094b520f388f3a3450b2))
+
+## [1.0.0](https://github.com/vvaldemarok/tst-nx/compare/first-app-0.9.0...first-app-1.0.0) (2023-06-21)
+
+
+### Features
+
 * **tested:** tested ([a3ef793](https://github.com/vvaldemarok/tst-nx/commit/a3ef793f3149c6925b2e03325afcada4b5673dfb))
 * **test:** tested test ([5d684d6](https://github.com/vvaldemarok/tst-nx/commit/5d684d6c953d2abf52a2094b520f388f3a3450b2))
 

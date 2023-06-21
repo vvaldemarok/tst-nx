@@ -22,9 +22,7 @@
         "generateNotes": true,
         "changelogHeader": "${tag}",
         "tag": "${tag}",
-		"notes": "${notes}",
-		"title": "${projectName}: v.${version}",
-		"--notesStartTag": "Whats changed?"
+		"notes": "${notes}"
 	}
     }
   }

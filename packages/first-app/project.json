@@ -10,16 +10,14 @@
     "tag": "${tag}",
     "skipCommitTypes": ["ci", "docs", "style", "refactor"],
     "postTargets": ["first-app:github"]
-      }
+}
     },
   "github": {
       "executor": "@jscutlery/semver:github",
       "options": {
         "generateNotes": true,
         "changelogHeader": "${tag}",
-        "tag": "${tag}",
-        "notes": "${notes}",
-        "dryRun": "${dryRun}"
+        "tag": "${tag}"
       }
     }
   }

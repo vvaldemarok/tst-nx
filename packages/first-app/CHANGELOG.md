@@ -2,6 +2,8 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.1.1](https://github.com/vvaldemarok/tst-nx/compare/first-app-1.1.0...first-app-1.1.1) (2023-06-21)
+
 ## [1.1.0](https://github.com/vvaldemarok/tst-nx/compare/first-app-1.0.0...first-app-1.1.0) (2023-06-21)
 
 

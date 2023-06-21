@@ -14,7 +14,8 @@
     "second/build": "nx run secondapp:android",
     "packager/start-fresh": "nx run first-app:packager/start-fresh",
     "shared/build": "nx run @my-app/shared:build",
-    "refresh/all": "rm -rf node_modules && yarn && nx run first-app:packages/refresh"
+    "refresh/all": "rm -rf node_modules && yarn && nx run first-app:packages/refresh",
+	"android-development/run": "echo 'sho ze teke'"
   },
   "devDependencies": {
     "@commitlint/cli": "17.6.5",

@@ -5,19 +5,20 @@
       "executor": "@jscutlery/semver:version",
       "options": {
         "preset": "conventional",
-		"skipRootChangelog": false,
-		"generateNotes": true,
-		"tag": "F",
-		 "skipCommitTypes": ["ci", "docs", "style", "refactor", "chore"]
+    "skipRootChangelog": false,
+    "generateNotes": true,
+    "tag": "${tag}",
+    "skipCommitTypes": ["ci", "docs", "style", "refactor"],
+    "postTargets": ["first-app:github"]
       }
     },
-	"release": {
+  "github": {
       "executor": "@jscutlery/semver:github",
       "options": {
         "generateNotes": true,
         "changelogHeader": "${tag}",
-        "notes": "${notes}",
         "tag": "${tag}",
+        "notes": "${notes}",
         "dryRun": "${dryRun}"
       }
     }

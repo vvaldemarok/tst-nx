@@ -1,0 +1,24 @@
+{
+  "root": ".",
+  "targets": {
+    "version": {
+      "executor": "@jscutlery/semver:version",
+      "options": {
+        "preset": "conventional",
+		"skipRootChangelog": true,
+		 "skipCommitTypes": ["ci", "docs", "style", "refactor", "chore"]
+      }
+    },
+	"release": {
+      "executor": "@jscutlery/semver:github",
+      "options": {
+        "generateNotes": true,
+        "changelogHeader": "${tag}",
+        "notes": "${notes}",
+        "tag": "${tag}",
+        "dryRun": "${dryRun}",
+        "draft": true
+      }
+    }
+  }
+}

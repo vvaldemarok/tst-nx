@@ -75,7 +75,7 @@ function App(): JSX.Element {
         style={{
           width: 30,
           height: 30,
-          borderRadius: 15,
+          borderRadius: 15.5,
           position: 'absolute',
           backgroundColor: 'tomato',
           right: 100,

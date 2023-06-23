@@ -2,6 +2,18 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.2.0](https://github.com/vvaldemarok/tst-nx/compare/first-app-1.1.6...first-app-1.2.0) (2023-06-23)
+
+
+### Features
+
+* **first-app:** refactored App.tsx ([7bf6d09](https://github.com/vvaldemarok/tst-nx/commit/7bf6d099e1a0bfb8ed5c4254c230ceb49bdabb3b))
+
+
+### Bug Fixes
+
+* **first-app:** chnaged project.json ([ade8c95](https://github.com/vvaldemarok/tst-nx/commit/ade8c954e0faac1344cf37199fddef65362a3237))
+
 ## [1.1.6](https://github.com/vvaldemarok/tst-nx/compare/first-app-1.1.5...first-app-1.1.6) (2023-06-23)
 
 

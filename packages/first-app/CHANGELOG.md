@@ -2,6 +2,13 @@
 
 This file was generated using [@jscutlery/semver](https://github.com/jscutlery/semver).
 
+## [1.1.6](https://github.com/vvaldemarok/tst-nx/compare/first-app-1.1.5...first-app-1.1.6) (2023-06-23)
+
+
+### Bug Fixes
+
+* **first-app:** added changes ([90528fa](https://github.com/vvaldemarok/tst-nx/commit/90528fab9567d256e86ea2e337a2b51e178a6538))
+
 ## [1.1.5](https://github.com/vvaldemarok/tst-nx/compare/first-app-1.1.4...first-app-1.1.5) (2023-06-23)
 
 

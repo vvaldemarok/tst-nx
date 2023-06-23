@@ -12,7 +12,10 @@
     },
     {
       "path": "../packages/shared"
-    }
+    },
+	{
+		"path": "../packages/space-pizza-customer-web"
+	}
   ],
   "settings": {}
 }

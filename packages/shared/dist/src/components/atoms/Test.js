@@ -22,6 +22,6 @@ const TestUi = () => {
                     fontSize: 28,
                     fontWeight: 'bold',
                     color: 'coral'
-                } }, "3-th change, and version 1.0.1"))));
+                } }, "3-th change, and version 1.0.5"))));
 };
 exports.TestUi = TestUi;

@@ -51,7 +51,7 @@ function Section({children, title}: SectionProps): JSX.Element {
           },
         ]}>
         {children}
-        fix
+        fix and fix
       </Text>
     </View>
   );
@@ -69,7 +69,7 @@ function App(): JSX.Element {
   return (
     <SafeAreaView style={backgroundStyle}>
       <StatusBar
-        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
+        barStyle={'light-content'}
         backgroundColor={backgroundStyle.backgroundColor}
       />
 

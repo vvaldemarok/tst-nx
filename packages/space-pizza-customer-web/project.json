@@ -1,0 +1,36 @@
+{
+	"root": ".",
+	"targets": {
+		"version": {
+			"executor": "@jscutlery/semver:version",
+			"options": {
+				"preset": "conventional",
+				"push": true,
+				"skipRootChangelog": false,
+				"generateNotes": true,
+				"tag": "${tag}",
+				"baseBranch": "HEAD:development",
+				"skipCommitTypes": [
+					"ci",
+					"docs",
+					"style",
+					"refactor"
+				],
+				"postTargets": [
+					"first-app:github"
+				],
+				"commitMessageFormat": "feat(${projectName}): 🎸 cut release to ${version}"
+			}
+		},
+		"github": {
+			"executor": "@jscutlery/semver:github",
+			"options": {
+				"preset": "conventional",
+				"generateNotes": true,
+				"changelogHeader": "${tag}",
+				"tag": "${tag}",
+				"notes": "${notes}"
+			}
+		}
+	}
+}

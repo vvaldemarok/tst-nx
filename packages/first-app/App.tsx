@@ -43,7 +43,7 @@ function Section({children, title}: SectionProps): JSX.Element {
         ]}>
         {title}
       </Text>
-      <Text
+      {/* <Text
         style={[
           styles.sectionDescription,
           {
@@ -52,7 +52,7 @@ function Section({children, title}: SectionProps): JSX.Element {
         ]}>
         {children}
         fix
-      </Text>
+      </Text> */}
     </View>
   );
 }
